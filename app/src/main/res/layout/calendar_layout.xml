@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp">
+
+        <Gallery
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:id="@+id/monthNameViewPager"
+            android:background="@color/calendar_bg"
+            ></Gallery>
+
+      
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_alignParentTop="true"
+        >
+
+        <LinearLayout android:id="@+id/calendar_header"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/calendar_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/_12sdp"
+                android:id="@+id/sunTextView"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                android:text="@string/sun"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/_12sdp"
+                android:id="@+id/monTextView"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                android:text="@string/mon"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/_12sdp"
+                android:id="@+id/tueTextView"
+                android:textColor="@android:color/black"
+                android:text="@string/tue"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/_12sdp"
+                android:gravity="center_horizontal"
+                android:id="@+id/wedTextView"
+                android:textColor="@android:color/black"
+                android:text="@string/wed"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/thuTextView"
+                android:textSize="@dimen/_12sdp"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                android:text="@string/thu"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/friTextView"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@android:color/black"
+                android:text="@string/fri"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/_12sdp"
+                android:id="@+id/satTextView"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                android:text="@string/sat"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <calendar.com.calendartutorial.CustomViewPager
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_160sdp"
+        android:id="@+id/monthValueViewPager"
+        android:background="@color/calendar_bg"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_8sdp"
+        android:id="@+id/multipleDateSelectionTextView"
+        android:paddingTop="@dimen/_3sdp"
+        android:paddingBottom="@dimen/_3sdp"
+        android:gravity="center"
+        />
+
+
+</LinearLayout>

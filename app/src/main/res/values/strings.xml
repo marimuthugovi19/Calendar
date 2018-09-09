@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CalendarTutorial</string>
+
+
+    <string name="sun">Su</string>
+    <string name="mon">Mo</string>
+    <string name="tue">Tu</string>
+    <string name="wed">We</string>
+    <string name="thu">Th</string>
+    <string name="fri">Fr</string>
+    <string name="sat">Sa</string>
+
+</resources>

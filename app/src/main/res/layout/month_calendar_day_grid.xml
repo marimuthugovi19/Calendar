@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="@dimen/_26sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/daysLayout"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <TextView
+        android:layout_width="@dimen/_25sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:textAlignment="center"
+        android:textSize="@dimen/_12sdp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@drawable/calendar_text_selector"
+        android:id="@+id/calendarGridValue"
+        />
+
+    <!---->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/adapter_layout"
+        android:orientation="horizontal"
+        >
+
+
+    </LinearLayout>
+
+</RelativeLayout>
